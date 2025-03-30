@@ -15,7 +15,7 @@ const WeeklySchedule = () => {
     }
 
     try {
-      const response = await fetch(`http://127.0.0.1:5000/weekly-schedule?type=${scheduleType}`);
+      const response = await fetch(`https://recipegeniebackend.onrender.com/weekly-schedule?type=${scheduleType}`);
       const data = await response.json();
 
       if (data.weekly_schedule) {

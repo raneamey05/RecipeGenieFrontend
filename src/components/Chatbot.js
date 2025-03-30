@@ -48,7 +48,7 @@ function Chatbot() {
     setMessages((prev) => [...prev, userMessage]);
 
     try {
-      const response = await fetch("http://127.0.0.1:5000/get_recipes", {
+      const response = await fetch("https://recipegeniebackend.onrender.com/get_recipes", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ingredients: input })
@@ -76,7 +76,7 @@ function Chatbot() {
   // ✅ Fetch a single random recipe
   const getRandomRecipe = async () => {
     try {
-      const response = await fetch("http://127.0.0.1:5000/random-recipe");
+      const response = await fetch("https://recipegeniebackend.onrender.com/random-recipe");
       const data = await response.json();
 
       if (data.response) {
@@ -97,7 +97,7 @@ function Chatbot() {
   // ✅ Fetch 3 random recipes
   const getThreeRandomRecipes = async () => {
     try {
-      const response = await fetch("http://127.0.0.1:5000/three-random-recipes");
+      const response = await fetch("https://recipegeniebackend.onrender.com/three-random-recipes");
       const data = await response.json();
 
       if (data.response) {
