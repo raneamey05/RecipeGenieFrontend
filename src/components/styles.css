@@ -1,0 +1,6 @@
+.gradient-bg {
+  background: linear-gradient(to right, #ffcc33, #ff6699);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

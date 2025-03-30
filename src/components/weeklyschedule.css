@@ -1,0 +1,72 @@
+/* Gradient background for the page */
+.schedule-container {
+    background: linear-gradient(to right, #ffcc33, #ff6699);
+    min-height: 100vh;
+    min-width: 500vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+  
+  /* Page heading */
+  .schedule-heading {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Selection container */
+  .selection-container {
+    display: flex;
+    width: 8%;
+    font-size: 25px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Fetch button */
+  .fetch-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Weekly schedule result container */
+  .schedule-results {
+    margin-top: 20px;
+    text-align: center;
+    width: 18%;
+    max-height: 60vh;
+    overflow-y: auto; /* Scrollable */
+  }
+  
+  /* Individual schedule card */
+  .schedule-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: left;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+  }
+  
+  /* No schedule found message */
+  .no-schedule {
+    font-size: 18px;
+    color: black;
+  }
+  
