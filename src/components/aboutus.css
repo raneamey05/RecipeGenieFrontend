@@ -8,7 +8,7 @@
 }
 .aboutus-container {
     height: 100vh; /* Full viewport height */
-    width: 100vh;
+    width: 1000vh;
     display: flex;
     align-items: center;
     justify-content: center;
