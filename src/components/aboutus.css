@@ -1,0 +1,14 @@
+.aboutus-container {
+    background: linear-gradient(to right, #ff9966, #ff5e62); /* Smooth gradient */
+    color: white; /* Text color */
+    padding: 50px; /* Add spacing */
+    text-align: center; /* Center the text */
+    font-family: Arial, sans-serif; /* Font style */
+    border-radius: 10px; /* Optional: rounded corners */
+}
+.aboutus-container {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
