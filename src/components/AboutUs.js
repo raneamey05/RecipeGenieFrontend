@@ -5,7 +5,7 @@ const AboutUs = () => {
   return (
     <div>
       <h2>About Us</h2>
-      <p>Learn more about our RecipeGenie!</p>
+      <p>Welcome to RecipeGenie, your personal food recommender!</p>
     </div>
   );
 };
