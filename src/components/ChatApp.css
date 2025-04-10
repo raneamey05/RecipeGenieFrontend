@@ -25,7 +25,7 @@ body, html {
   height: 100vh; /* Full height */
   max-width: 100%;
   max-height: 100%;
-  background: url("../assets/chatbot-bg.jpg") no-repeat center center fixed;
+  background: url("../assets/search_recipe.jpg") no-repeat center center fixed;
   background-size: 100% 100%;
   border-radius: 10px;
   padding: 15px;
