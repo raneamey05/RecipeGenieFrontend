@@ -69,11 +69,13 @@ body, html {
 }
 
 .message.user {
-  background-color: #4A148C; /* Deep Purple */
+  background-color: rgba(255, 255, 255, 0.85);  /* Light bubble */
+  color: #3e2723; /* Deep brown text */
   text-align: right;
   margin-left: auto;
-  color: #FFD700; /* Gold text */
+  font-weight: 500;
 }
+
 
 
 /* ✅ Bot Message (Left Side) */
@@ -82,9 +84,10 @@ body, html {
 }
 
 .message.bot {
-  background-color: #FFD700; /* Gold */
+  background-color: rgba(255, 235, 205, 0.85); /* Warm almond/golden tone */
+  color: #4e342e; /* Cocoa brown text */
   text-align: left;
-  color: #4A148C; /* Deep Purple text */
+  font-weight: 500;
 }
 
 
