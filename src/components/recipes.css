@@ -1,6 +1,6 @@
 /* Gradient background for the entire page */
 .recipes-container {
-  background: url('../assets/search_recipes.jpg') no-repeat center center fixed;
+  background: url('../assets/search_recipe.jpg') no-repeat center center fixed;
   min-height: 100vh;
   min-width: 1000vh;
   display: flex;
